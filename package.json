@@ -1,0 +1,29 @@
+{
+  "author": "Jacob Müller",
+  "description": "A jQuery plugin to create easing functions from cubic bezier coordinates",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-insert": "^0.4.0",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jackmu95/jquery-cubicBezier/blob/master/LICENSE"
+  },
+  "name": "jquery-cubicBezier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackmu95/jquery-cubicBezier"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp build"
+  },
+  "version": "1.0.0"
+}
