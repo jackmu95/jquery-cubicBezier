@@ -1,4 +1,4 @@
-# [jQuery cubicBezier][jquery-cubicBezier]
+# [jQuery cubicBezier][jquery-cubicbezier]
 
 [![Build Status](https://travis-ci.org/jackmu95/jquery-cubicBezier.svg)](https://travis-ci.org/jackmu95/jquery-cubicBezier)
 [![devDependency Status](https://david-dm.org/jackmu95/jquery-cubicBezier/dev-status.svg)](https://david-dm.org/jackmu95/jquery-cubicBezier#info=devDependencies)
@@ -6,7 +6,7 @@
 This plugin allows you to create jQuery easing functions from cubic bezier coordinates. The code for the easing functions is a 1:1 conversion from the [WebKit Source][webkit-source] to JavaScript.
 
 ## Usage
-At first link to [jQuery][jquery] and the [jquery-cubicBezier](src/jquery.cubicBezier.js) plugin right before closing the `body` tag. After that you can start using the plugin.
+Just include [jQuery][jquery] and the [jquery-cubicBezier](dist/jquery.cubicBezier.min.js) plugin in your HTML file. After that you can start using the plugin.
 
 **The plugin takes two arguments:**
 * `coordinates` - _Any array which should contain the four cubic bezier curve coordinates. The coordinates for a **linear** curve would be `[0, 0, 1, 1]`._
@@ -34,8 +34,8 @@ At first link to [jQuery][jquery] and the [jquery-cubicBezier](src/jquery.cubicB
 ## License
 The **jquery-cubicBezier** plugin is licensed under the [MIT License](LICENSE).
 
-[jquery-cubicBezier]: https://github.com/jackmu95/jquery-cubicBezier
+[jquery-cubicbezier]: https://github.com/jackmu95/jquery-cubicBezier
 [webkit-source]: https://github.com/WebKit/webkit
-[jquery]: http://jquery.com/
+[jquery]: https://jquery.com
 [netzgesta]: http://www.netzgesta.de/dev/cubic-bezier-timing-function.html
 [janne-aukia]: https://github.com/jaukia/easie
