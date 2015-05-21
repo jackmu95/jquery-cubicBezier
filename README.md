@@ -14,14 +14,14 @@ Just include [jQuery][jquery] and the [jquery-cubicBezier](dist/jquery.cubicBezi
 
 ```html
 <body>
-    ...
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="jquery.cubicBezier.min.js"></script>
-    <script>
-        $(function() {
-            $('#element').animate({ 'left': 100 }, 1000, $.cubicBezier([0.25, 0.1, 0.25, 1], 'ease'));
-        });
-    </script>
+  ...
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="jquery.cubicBezier.min.js"></script>
+  <script>
+    $(function() {
+      $('#element').animate({ 'left': 100 }, 1000, $.cubicBezier([0.25, 0.1, 0.25, 1], 'ease'));
+    });
+  </script>
 </body>
 ```
 
