@@ -15,7 +15,7 @@ Just include [jQuery][jquery] and the [jquery-cubicBezier](dist/jquery.cubicBezi
 ```html
 <body>
   ...
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="jquery.cubicBezier.min.js"></script>
   <script>
     $(function() {
