@@ -9,7 +9,7 @@
   "jquery": true,
   "laxbreak": true,
   "noarg": true,
-  "predef": [ "define" ],
+  "predef": ["define", "require"],
   "undef": true,
   "unused": true,
   "validthis": true

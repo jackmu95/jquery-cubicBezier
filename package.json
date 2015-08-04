@@ -3,14 +3,14 @@
   "description": "A jQuery plugin to create easing functions from cubic bezier coordinates",
   "devDependencies": {
     "del": "^1.2.0",
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.0",
     "gulp-insert": "^0.4.0",
-    "gulp-jscs": "^1.6.0",
-    "gulp-jshint": "^1.10.0",
-    "gulp-load-plugins": "^0.10.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.0.0-rc",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
-    "jshint-stylish": "^1.0.2"
+    "jshint-stylish": "^2.0.1"
   },
   "license": "MIT",
   "name": "jquery-cubicBezier",
